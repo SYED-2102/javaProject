@@ -26,7 +26,7 @@ class Main {
         int todayMonth = Integer.parseInt(todayParts[1]);if(todayMonth>12) return;
         int todayDay = Integer.parseInt(todayParts[2]);
         if(todayDay>getDaysInMonth(todayMonth-1,todayYear))
-          {System.out.println("enter proper todaydate");return;}
+          {System.out.println("enter proper today date");return;}
 
          
         int inputYear = Integer.parseInt(inputParts[0]);
